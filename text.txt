@@ -1,1 +1,188 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noko ProWash LLC | Pressure Washing</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+    font-family:Poppins, sans-serif;
+    line-height:1.6;
+    color:#fff;
+    background:linear-gradient(180deg,#00b4d8,#0077b6,#023e8a);
+}
+
+/* NAV */
+nav{
+    position:fixed;
+    width:100%;
+    background:rgba(0,0,0,.25);
+    backdrop-filter:blur(8px);
+    padding:15px 30px;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+}
+nav img{height:45px;margin-right:15px}
+nav h1{font-size:22px}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+.hero img{
+    width:180px;
+    margin-bottom:20px;
+}
+.hero h2{
+    font-size:48px;
+    font-weight:700;
+}
+.hero p{
+    font-size:22px;
+    margin:20px 0;
+}
+.btn{
+    background:#ffd166;
+    color:#000;
+    padding:15px 28px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    display:inline-block;
+}
+
+/* SECTIONS */
+section{
+    padding:80px 25px;
+    max-width:1000px;
+    margin:auto;
+}
+h3{
+    text-align:center;
+    margin-bottom:25px;
+    font-size:36px;
+}
+
+/* SERVICES */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+.card{
+    background:rgba(255,255,255,.15);
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+}
+
+/* WHY */
+.why{
+    background:rgba(0,0,0,.2);
+    border-radius:20px;
+    padding:40px;
+}
+
+/* REVIEWS */
+.reviews{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+.review{
+    background:rgba(255,255,255,.15);
+    padding:25px;
+    border-radius:18px;
+}
+
+/* CONTACT */
+.contact{text-align:center}
+footer{text-align:center;padding:25px;font-size:14px;opacity:.8}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <img src="logo.png">
+    <h1>Noko ProWash LLC</h1>
+</nav>
+
+<div class="hero">
+    <img src="logo.png">
+    <h2>Bring Back the Sparkle ✨</h2>
+    <p>Locally owned & operated pressure washing<br>
+    Serving Nokomis & Sarasota County</p>
+    <a href="tel:9412210223" class="btn">Call For Free Quote</a>
+</div>
+
+<section>
+    <h3>About Us</h3>
+    <p>
+        Noko ProWash LLC is locally owned and operated, bringing reliable,
+        friendly island-style pressure washing to homes across Sarasota County.
+        We specialize in restoring curb appeal and making your home shine again.
+    </p>
+</section>
+
+<section>
+    <h3>Our Services</h3>
+    <div class="services">
+        <div class="card"><h4>House Washing</h4></div>
+        <div class="card"><h4>Driveways & Sidewalks</h4></div>
+        <div class="card"><h4>Roofs & Gutters</h4></div>
+        <div class="card"><h4>Pool Decks & Patios</h4></div>
+    </div>
+</section>
+
+<section class="why">
+    <h3>Why Choose Us?</h3>
+    <ul>
+        <li>✔ Locally owned & operated</li>
+        <li>✔ Serving Nokomis & Sarasota County</li>
+        <li>✔ Free estimates</li>
+        <li>✔ Friendly & reliable service</li>
+        <li>✔ Satisfaction focused</li>
+    </ul>
+</section>
+
+<section>
+    <h3>⭐ Help Us Grow</h3>
+    <div class="reviews">
+        <div class="review">
+            <h4>Be Our First Review!</h4>
+            <p>If we’ve cleaned your home, we’d truly appreciate a quick Google review.</p>
+            <br>
+            <a class="btn" href="#">Leave a Google Review</a>
+        </div>
+        <div class="review">
+            <h4>Local Small Business</h4>
+            <p>Your support helps neighbors find a trusted pressure washing company.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h3>Get Your Free Quote</h3>
+    <p><b>Phone:</b> <a href="tel:9412210223" style="color:#ffd166;">941-221-0223</a></p>
+    <br>
+    <a class="btn" href="tel:9412210223">Call Now</a>
+</section>
+
+<footer>
+© 2026 Noko ProWash LLC • Island-Level Clean 🌴
+</footer>
+
+</body>
+</html>
